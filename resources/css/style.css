@@ -44,6 +44,7 @@ nav span {
 
 .content{
   display: flex;
+
 }
 
 .lead.story {
@@ -59,23 +60,25 @@ nav span {
 }
 
 .fall-cancelled.image-content{
-  border: 1px solid black;
+
 }
 
 .story {
   border: 1px solid black;
+}
 
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
 }
 
 .column.large {
   width: 630px;
-  border: 1px solid black;
-  flex-direction: column;
 }
 
 .column.medium {
   width: 300px;
-
 }
 
 .column.small {
