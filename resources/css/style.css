@@ -19,6 +19,18 @@ header nav {
   padding-right: 40px;
 }
 
+div {
+  border: 1px solid black;
+}
+
+h2, p {
+  display: block;
+}
+
+h3 {
+  display: block;
+}
+
 .header_logo span {
   color: MediumAquaMarine;
 }
@@ -40,19 +52,24 @@ header nav {
 nav span {
   display: inline-block;
   padding: 20px 10px;
+
 }
 
-.content{
+.content {
   display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+
 
 }
 
-.lead.story {
+.lead-story {
   border: 1px solid black;
 }
 
-.image.content {
+.image-content {
   border: 1px solid black;
+
 }
 
 .pop-culture.image-content {
@@ -60,10 +77,10 @@ nav span {
 }
 
 .fall-cancelled.image-content{
-
 }
 
 .story {
+
   border: 1px solid black;
 }
 
@@ -84,8 +101,4 @@ nav span {
 .column.small {
   width: 240px;
 
-}
-
-div {
-  border: 1px solid black;
 }
